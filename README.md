@@ -1,3 +1,6 @@
+**Faasm** - this is a fork for building libffi for Faasm, inspired by the work
+of @brion [here](https://github.com/brion/libffi).
+
 Status
 ======
 

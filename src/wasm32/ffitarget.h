@@ -13,11 +13,7 @@ typedef enum ffi_abi {
   FFI_WASM32, 
   FFI_WASM32_EMSCRIPTEN, 
   FFI_LAST_ABI,
-#ifdef __EMSCRIPTEN__
-  FFI_DEFAULT_ABI = FFI_WASM32_EMSCRIPTEN
-#else  
   FFI_DEFAULT_ABI = FFI_WASM32
-#endif  
 } ffi_abi;
 
 #define FFI_CLOSURES 0

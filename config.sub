@@ -135,7 +135,7 @@ case $1 in
 			| uclinux-gnu* | kfreebsd*-gnu* | knetbsd*-gnu* | netbsd*-gnu* \
 			| netbsd*-eabi* | kopensolaris*-gnu* | cloudabi*-eabi* \
 			| storm-chaos* | os2-emx* | rtmk-nova* \
-            | emscripten | wasi )
+            | wasi )
 				basic_machine=$field1
 				basic_os=$maybe_os
 				;;
@@ -626,7 +626,7 @@ case $1 in
 				basic_os=vxworks
 				;;
             wasm32)
-                basic_machine=wasm32-unknown-emscripten
+                basic_machine=wasm32-wasi
                 basic_os=
                 ;;
 			xbox)
