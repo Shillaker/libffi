@@ -1,3 +1,8 @@
+# Added for Faasm
+wasm32-unknown-emscripten
+config.log
+
+# Upstream
 .libs
 .deps
 *.o
