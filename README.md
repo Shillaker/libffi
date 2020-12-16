@@ -1,5 +1,6 @@
 **Faasm** - this is a fork for building libffi for Faasm, inspired by the work
-of @brion [here](https://github.com/brion/libffi).
+of @brion [here](https://github.com/brion/libffi). Diff here:
+https://github.com/libffi/libffi/compare/master...brion:emscripten-work
 
 Status
 ======
